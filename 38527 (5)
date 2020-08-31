@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Bibliothèque Iqra</title>
+	<style>
+		body
+		{
+			direction: ltr;
+			background-color: #002447
+			
+		}
+		header.main-header
+		{
+			background: linear-gradient(80deg,#002447,#d562be);
+			text-align: center;
+			font-size: 50px;
+			padding: 45px;
+			color: #FFF;
+			border-radius: 20px;
+
+		}
+		img
+		{
+			width: 150px;
+			height: 200px;
+			box-shadow: 0 0 4px;
+			margin-top: 20px;
+		}
+		.caption1 
+		{
+			font-weight: bold;
+			width: 150px;
+			color: white;
+			margin-top: 10px;
+			margin-bottom: 30px;
+		}
+		.order
+		{
+			background-color: blue;
+			color:#fff;
+			padding: 5px;
+			border: none;
+			width: 80px;
+			display: inline;
+			position: relative;
+			right: 50px;
+		}
+		button:hover
+		{
+			padding: 10px;
+			transition: padding .1s;
+		}
+		#caption
+		{
+			background-color: #fff;
+			color: red;
+			border: 1px solid red;
+			padding: 5px;
+			width: 100px;
+			margin-left: 30px;
+			position: relative;
+			left: 40px;
+			bottom: 27px;
+		}
+		#caption:hover
+		{
+			padding: 10px;
+			transition: padding .1s;
+		}
+		#caption2
+		{
+			background-color: #fff;
+			color: red;
+			border: 1px solid red;
+			padding: 5px;
+			width: 100px;
+			margin-left: 30px;
+			position: relative;
+			left: 40px;
+			bottom: 27px;
+		}
+		#caption2:hover
+		{
+			padding: 10px;
+			transition: padding .1s;
+		}
+		#caption3
+		{
+			background-color: #fff;
+			color: red;
+			border: 1px solid red;
+			padding: 5px;
+			width: 100px;
+			margin-left: 30px;
+			position: relative;
+			left: 40px;
+			bottom: 27px;
+		}
+		#caption3:hover
+		{
+			padding: 10px;
+			transition: padding .1s;
+		}
+		#caption4
+		{
+			background-color: #fff;
+			color: red;
+			border: 1px solid red;
+			padding: 5px;
+			width: 100px;
+			margin-left: 30px;
+			position: relative;
+			left: 40px;
+			bottom: 27px;
+		}
+		#caption4:hover
+		{
+			padding: 10px;
+			transition: padding .1s;
+		}
+		#caption5
+		{
+			background-color: #fff;
+			color: red;
+			border: 1px solid red;
+			padding: 5px;
+			width: 100px;
+			margin-left: 30px;
+			position: relative;
+			left: 40px;
+			bottom: 27px;
+		}
+		#caption5:hover
+		{
+			padding: 10px;
+			transition: padding .1s;
+		}
+		#caption6
+		{
+			background-color: #fff;
+			color: red;
+			border: 1px solid red;
+			padding: 5px;
+			width: 100px;
+			margin-left: 30px;
+			position: relative;
+			left: 40px;
+			bottom: 27px;
+		}
+		#caption6:hover
+		{
+			padding: 10px;
+			transition: padding .1s;
+		}
+		.all
+		{
+			background: linear-gradient(80deg,#002447,#d562be,#027dc5);
+			margin-bottom: 100px;
+			background-color: #fff;
+			box-shadow: 0 0 10px #14213d;
+			height: 90.5%;
+			width: 70%;
+			position: relative;
+			padding-bottom: 20px;
+			padding-top: 20px;
+			margin-top: 60px;
+
+		}
+		
+		.all:hover
+		{
+			box-shadow: 0 0 20px #14213a;
+			transition: box-shadow .1s;
+		}
+		.price
+		{
+			color: lightgreen;
+			border: 1px solid #aaa;
+		}
+		.price:hover
+		{
+			padding: 5px;
+			transition: padding .2s;
+		}
+		hr
+		{
+			color: #eee;
+			width: 80%;
+		}
+		footer
+		{
+			width: 100%;
+			height: auto;
+			height: 500px;
+			background: linear-gradient(80deg,#002447,#d562be);
+			box-shadow: 0 0 30px;
+			margin-top: 300px;
+			margin-bottom: 0;
+		}
+		p
+		{
+			position: relative;
+			top: 200px;
+			color: #FFF;
+			font-size: 40px;
+			font-weight: bolder;
+		}
+		a
+		{
+			text-decoration: none;
+			border: 1px solid #fff;
+			color: yellow;
+		}
+		a:hover
+		{
+			color: blue;
+			padding: 5px;
+			transition: padding .1s;
+		}
+	</style>
+</head>
+<body>
+	<center>
+	<header class="main-header">
+		Bibliothèque Iqra
+	</header>
+	<div class="all">
+	<div class="div1">
+		<figure class="book1">
+		<img src="IMG_8098.JPG">
+		<figcaption class="caption1"><center><span class="mainspan"> Nom du livre: In My Heart A Hebrew Female <br><br><span class="price"> Prix: 1000 DA </span></span></span><br><br> <button class="order">Demande</button> <button id="caption">la description</button></center></figcaption>
+	</figure><hr>
+	<figure class="book2">
+		<img src="IMG_8099.jpg">
+		<figcaption class="caption1">
+			<center><span class="mainspan">Nom du livre: Crime on the Orient Train. <br><br><span class="price"> Prix: 500 DA </span></span></span><br><br> <button class="order">Demande</button> <button id="caption2">la description</button></span></center>
+		</figcaption>
+	</figure><hr>
+	<figure class="book3">
+		<img src="IMG_8100.jpg">
+		<figcaption class="caption1">
+			<center><span class="mainspan">Nom du livre: Soyez tout pour vous-même<br><br><span class="price">Prix: 1500 DA</span></span></span><br><br> <button class="order">Demande</button> <button id="caption3">la description</button></span></center>
+		</figcaption>
+	</figure><hr>
+	<figure class="book4">
+		<img src="IMG_8105.jpg">
+		<figcaption class="caption1">
+			<center><span class="mainspan">Nom du livre: Parce que tu es Dieu, un voyage au septième ciel<br><br><span class="price">Prix: 699 DA</span></span></span><br><br> <button class="order">Demande</button> <button id="caption4">la description</button></span></center>
+		</figcaption>
+	</figure><hr>
+		<figure class="book5">
+		<img src="IMG_8126.jpg">
+		<figcaption class="caption1">
+			<center><span class="mainspan">Nom du livre: Les sept habitudes des adolescents les plus efficaces. <br><br><span class="price">Prix: 750 DA</span></span></span><br><br> <button class="order">Demande</button> <button id="caption5">la description</button></span></center>
+		</figcaption>
+	</figure><hr>
+	<figure class="book6">
+		<img src="IMG_8127.jpg">
+		<figcaption class="caption1">
+			<center><span class="mainspan">Nom du livre: Nineteen. <br><br><span class="price">Prix: 1299 DA</span></span></span><br><br> <button class="order">Demande</button> <button id="caption6">la description</button></span></center>
+		</figcaption>
+	</figure>
+</div>
+	</div>
+</center>	
+<div>
+	<footer>
+		<center><p>
+			Pour plus d'informations ou pour commander des livres qui ne sont pas disponibles, visitez notre site Web: <a href="http://mysite77.eb2a.com/?i=1" target="_blank">MY WEB SITE</a>
+		</p></center>
+	</footer>
+</div>
+
+	<script>
+		var getCaption = document.getElementById("caption");
+		getCaption.onclick = function () {
+			alert("Le nom du livre B: Dans mon cœur une femme hébraïque \n L'auteur: Khawla Hamdy \n Section: Romans \n Description du livre: Ce roman est le plus vendu dans le monde arabe, ses événements s'inspirent d'une histoire vraie dans les pays de la Tunisie et du Liban, et il surveille un grand nombre de relations et de différences Parmi les religions monothéistes \n Résumé du livre: Les événements du roman tournent autour d'une fille appelée Nada. Cette fille est de Tunisie. Elle a été très influencée par le personnage d'une fille nommée Rima, orpheline de mère et de père, elle a donc décidé de se lancer dans l'islam à cause d'elle. Une grande empreinte dans sa vie.");
+		};
+		var getCaptionTow = document.getElementById("caption2");
+		getCaptionTow.onclick = function () {
+			alert("Nom du livre: Crime on the Orient Train. \n Auteur: Agatha Christie. \n Section: Romans. \n Description du livre: Ce roman a été imprimé pour la première fois en 1934 en anglais, et il est considéré comme l'un des romans les plus célèbres d'Agatha Christie. Son héros, M. Hercule Poirot, le célèbre enquêteur belge qui a travaillé à résoudre l'affaire avec sa sagesse, saura-t-il connaître le passé du mort? Quelle est la relation des voyageurs appartenant à différentes nationalités et différentes classes sociales avec le meurtre? C'est ce que nous lirons dans ce roman, classé parmi les romans les plus réussis sur le divorce, où la solution est le génie: on ne peut qu'admirer la pensée étonnante d'Agatha Christie. \n Résumé du livre: Les événements de ce roman tournent autour du célèbre enquêteur belge qui travaille pour résoudre le crime qui s'est produit dans la cabine à côté de lui dans le train, alors qu'il trouve une fille qui a été poignardée 12 fois, pour commencer à interroger des voyageurs appartenant à différentes nationalités et classes sociales.");
+		};
+		var getCaptionThrie = document.getElementById("caption3");
+		getCaptionThrie.onclick = function () {
+			alert("Nom du livre: Soyez tout pour vous-même. \n Auteur: Ammar Al-Shammari. \nSection: Romans. \n Description du livre: Le livre contient un ensemble de conseils importants sur le développement humain et le présente sous forme de poèmes pour donner au lecteur un sentiment d'ennui .. \n Résumé du livre: L'être humain n'est rien d'autre que des expériences et des situations différentes avec des jours et qu'une personne intelligente est quelqu'un qui peut apprendre de ses pièges. Les pierres d'achoppement des autres pour avancer à sa place sont meilleures que lui. Il n'y a aucune raison pour que vous vous mettiez la pression et vous fardiez jusqu'à ce que vous l'atteigniez avec dépression ou sentiment.");
+		};
+		var getCaptionFour = document.getElementById("caption4");
+		getCaptionFour.onclick = function () {
+			alert("Nom du livre: Parce que vous êtes Dieu, un voyage vers le septième ciel. \n Auteur: Ali bin Jaber Al-Fiqi. \n Section: Religion islamique. \n Résumé du livre: Dans ce livre, l'écrivain nous emmène en voyage vers le septième ciel pour contempler certains des beaux noms de Dieu, car il y a en eux une grande porte de la foi, par laquelle l'homme entre dans une porte sainte, qui fait que l'âme se prosterne devant Dieu dans l'honneur et la reconnaissance, et le cœur est guéri avec révérence et amour. L'auteur est que l'attachement du cœur à Dieu, l'observant et la connaissance de lui, de son amour, de son espoir et de sa peur, est le secret du bonheur dans ce monde et dans l'au-delà, et que toutes les peines, obsessions et détresse prendront fin si une personne dirige son cœur vers son Créateur et sa nourriture.");
+		};
+		var getCaptionFive = document.getElementById("caption5");
+		getCaptionFive.onclick = function () {
+			alert("Nom du livre: Les sept habitudes des adolescents très efficaces. \n Auteur: Shane Covey. \n Département: Développement humain. \n Description du livre: ce livre est un véritable cadeau pour l'esprit adolescent. Quel que soit le juge avec lequel vous pourriez avoir des difficultés dans la vie, ce livre vous offre l'espoir, la vision et la force de surmonter vos défis. Shane Covey s'adresse aux adolescents d'une manière qui combine divertissement et excitation pour leur présenter une feuille de route précise pour les mener vers un avenir prospère en attirant l'attention sur sept habitudes qui font Son propriétaire est un adolescent actif avec un regard différent plein d'espoir, d'ambition, de réussite et de succès. Ce livre regorge d'histoires incroyables que les adolescents d'aujourd'hui racontent sur eux-mêmes, et ce sont des histoires écrites avec de nombreux motifs tels que la colère, la frustration, le plaisir, l'enthousiasme, l'unité, le succès, l'espoir et l'inspiration,Les dessins animés, les idées et les citations que le livre contient les rendent passionnants et attrayants en plus de cela, le livre constitue un guide détaillé étape par étape pour aider les adolescents à se forger une image de soi, une amitié et une résistance au stress.");
+		};
+		var getCaptionSix = document.getElementById("caption6");
+		getCaptionSix.onclick = function () {
+			alert("Nom du livre: Nineteen. \n L'auteur: Ayman Al-Atoum. \n Département: Philosophie. \n Description: J'ai toujours senti qu'une porte mène à une bibliothèque derrière elle, ce n'est pas une porte ordinaire, c'est une porte qui s'ouvre vers l'absolu, et vers l'autre vie la plus étonnante, mystérieuse et magique, c'est une porte qui sépare deux vies entre une vie frivole et naïve et une vie sérieuse et similaire. La porte était L'isthme entre ces deux vies, et par conséquent, il est approprié pour vous d'enlever votre insignifiance avant de faire le premier pas à travers cette porte, et de porter les vêtements des moines résidant en présence de pures prières.");
+		};
+	</script>
+</body>
+</html>
